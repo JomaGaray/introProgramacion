@@ -11,6 +11,7 @@ public class Programa {
         //
         FiguraGeometrica circulo = new Circulo(2.5);
 
+        //
         System.out.println("Área del cuadrado: " + cuadrado.calcularArea());
         System.out.println("Área del círculo: " + circulo.calcularArea());
     }
