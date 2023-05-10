@@ -1,4 +1,4 @@
-package modulo2.ejercicios.tp1;
+package modulo2.ejercicios.ej_01;
 
 /**
  * Escribir un programa que muestre tu nombre por pantalla.
