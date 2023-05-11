@@ -5,14 +5,16 @@ public class RepeticionPorCondicionHasta {
     public static void main(String[] args) {
 
         //
-        int cantidad=10;
+        int numero = 1;
 
-        while(cantidad > 0){
+        //
+        while(numero <= 10){
+
+            System.out.println("El número es: "+numero);
 
             //
-            System.out.println("Cantidad: "+ cantidad-- );
+            numero++;
         }
-
 
     }
 
