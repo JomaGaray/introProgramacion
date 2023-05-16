@@ -2,7 +2,7 @@ package modulo4;
 
 import java.util.Scanner;
 
-public class RepeticionPorCondicionHasta_ej1 {
+public class While_ej1 {
 
     public static void main(String[] args) {
 

@@ -2,7 +2,7 @@ package modulo4;
 
 import java.util.Scanner;
 
-public class SaludoSHorario {
+public class If_ej1 {
 
     public static void main(String[] args) {
 

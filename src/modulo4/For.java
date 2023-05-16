@@ -1,8 +1,6 @@
 package modulo4;
 
-import java.util.Scanner;
-
-public class RepeticionPorCantidad {
+public class For {
 
     public static void main(String[] args) {
         //

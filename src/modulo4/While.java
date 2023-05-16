@@ -1,6 +1,6 @@
 package modulo4;
 
-public class RepeticionPorCondicionHasta {
+public class While {
 
     public static void main(String[] args) {
 

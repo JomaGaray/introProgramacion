@@ -2,7 +2,7 @@ package modulo4;
 
 import java.util.Scanner;
 
-public class Seleccion {
+public class If {
 
     public static void main(String[] args) {
 

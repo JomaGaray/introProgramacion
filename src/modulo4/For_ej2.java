@@ -1,6 +1,6 @@
 package modulo4;
 
-public class RepeticionPorCantidad_ej2 {
+public class For_ej2 {
 
     public static void main(String[] args) {
         //

@@ -1,6 +1,6 @@
 package modulo4;
 
-public class RepeticionPorCondicionMientras {
+public class DoWhile {
 
     public static void main(String[] args) {
 
