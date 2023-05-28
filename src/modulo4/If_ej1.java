@@ -14,7 +14,7 @@ public class If_ej1 {
         //
         String horaStr = scanner.nextLine();
         //
-        int hora = Integer.valueOf(horaStr);
+        int hora = Integer.parseInt(horaStr);
         //
         if (hora >= 6 && hora <= 12 ) {
             System.out.println("buenos días");

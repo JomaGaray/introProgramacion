@@ -17,18 +17,20 @@ public class If {
         String edadStr = scanner.nextLine();
 
         //
-        int edad = Integer.valueOf(edadStr);
+        int edad = Integer.parseInt(edadStr);
 
         //
         if (edad < 15) {
             //
             System.out.println("...clase A");
 
-        } else if (edad >= 15 && edad <= 17) {
+            //edad >= 15 &&
+        } else if (edad <= 17) {
             //
             System.out.println("...clase B");
 
-        } else if (edad >= 18 && edad <= 21) {
+            //edad >= 18 &&
+        } else if (edad <= 21) {
             //
             System.out.println("...clase C");
 

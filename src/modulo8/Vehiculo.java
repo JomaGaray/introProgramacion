@@ -32,6 +32,14 @@ public class Vehiculo {
         this.color = color;
     }
 
+    public Vehiculo setColor2(String color){
+        //
+        this.color = color;
+
+        //
+        return this;
+    }
+
     //
     public String getColor(){
         return this.color;
