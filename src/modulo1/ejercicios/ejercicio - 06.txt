@@ -1,0 +1,10 @@
+El problema del ajedrez: ¿Cuántos cuadros hay en un tablero de ajedrez de 8x8? ¿Y si el tablero tuviera un tamaño diferente?
+Claro, puedo darte la solución al problema del ajedrez:
+
+En un tablero de ajedrez de 8x8, hay un total de 64 cuadros. Esto se puede calcular multiplicando el número de filas (8) por el número de columnas (8).
+
+Si el tablero tuviera un tamaño diferente, la forma de calcular el número de cuadros sería la misma. Simplemente multiplicas el número de filas por el número de columnas del tablero para obtener el total de cuadros.
+
+Por ejemplo, si el tablero fuera de 6x6, tendrías 36 cuadros (6 filas x 6 columnas). Si fuera de 10x10, tendrías 100 cuadros (10 filas x 10 columnas), y así sucesivamente.
+
+Recuerden que el número total de cuadros en un tablero de ajedrez se obtiene multiplicando el número de filas por el número de columnas del tablero.
