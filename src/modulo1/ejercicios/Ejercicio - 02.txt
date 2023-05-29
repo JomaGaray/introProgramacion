@@ -1,1 +1,12 @@
-//TODO poner el ejercicio
+
+El problema del puente: Cuatro personas deben cruzar un puente de noche. Solo hay una linterna, y cada persona tarda diferentes tiempos en cruzar el puente. Solo dos personas pueden cruzar juntas, y deben llevar la linterna para poder avanzar. El objetivo es encontrar la manera más rápida para que todas las personas crucen el puente.
+
+respuesta:
+
+1. Las personas A y B cruzan juntas llevando la linterna.
+2. A llega al otro lado y deja la linterna allí.
+3. B regresa al lado inicial con la linterna.
+4. Las personas C y D cruzan juntas llevando la linterna.
+5. B les entrega la linterna a C y D en el medio del puente.
+6. B cruza solo al otro lado.
+7. C y D llegan juntos al otro lado.
