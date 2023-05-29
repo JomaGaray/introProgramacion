@@ -1,0 +1,11 @@
+ El problema de los enunciados lógicos: Se te presentan tres puertas. Detrás de una de ellas hay un premio, y detrás de las otras dos hay cabras. Un presentador te indica que detrás de una de las puertas hay una cabra. Luego, te da la opción de cambiar tu elección inicial de puerta o mantenerla. ¿Deberías cambiar tu elección inicial o mantenerla? ¿Cuál es la estrategia óptima?
+ 
+ En el problema de los enunciados lógicos conocido como "La paradoja de Monty Hall", la estrategia óptima es cambiar tu elección inicial. Aquí está la solución:
+
+Cuando eliges una puerta al principio, tienes una probabilidad de 1/3 de elegir la puerta con el premio y una probabilidad de 2/3 de elegir una puerta con una cabra.
+
+Después de que el presentador te muestra una puerta con una cabra, la información cambia. Ahora, hay dos puertas restantes: la que elegiste inicialmente y otra puerta. La probabilidad de que la puerta que elegiste inicialmente tenga el premio sigue siendo de 1/3. Sin embargo, la probabilidad de que la otra puerta (la que no elegiste inicialmente) tenga el premio es ahora de 2/3.
+
+Cuando decides cambiar tu elección inicial, estás apostando por esa probabilidad más alta del 2/3 de que el premio esté detrás de la otra puerta. Por lo tanto, la estrategia óptima es cambiar tu elección.
+
+Este resultado puede ser sorprendente, ya que a primera vista podría parecer que cambiar o mantener tu elección no debería marcar ninguna diferencia. Sin embargo, el razonamiento lógico y el análisis de probabilidades demuestran que cambiar la elección aumenta tus posibilidades de ganar el premio.
