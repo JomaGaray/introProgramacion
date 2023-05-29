@@ -1,1 +1,5 @@
-//TODO poner el ejercicio
+
+
+Un sastre tiene una pieza de paño de 12 metros de longitud, y todos los días corta 2 metros. ¿Al cabo de cuántos días habrá cortado completamente la pieza?
+ 
+5 dias
