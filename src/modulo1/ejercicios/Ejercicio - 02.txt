@@ -1,5 +1,5 @@
 
-El problema del puente: Cuatro personas deben cruzar un puente de noche. Solo hay una linterna, y cada persona tarda diferentes tiempos en cruzar el puente. Solo dos personas pueden cruzar juntas, y deben llevar la linterna para poder avanzar. El objetivo es encontrar la manera más rápida para que todas las personas crucen el puente.
+El problema del puente: Cuatro personas deben cruzar un puente de noche. Solo hay una linterna, y cada persona tarda diferentes tiempos en cruzar el puente. Solo dos personas pueden cruzar juntas, y deben llevar la linterna para poder avanzar. El objetivo es encontrar la manera más rápida para que todas las personas crucen el puente, ninguna de las personas puede cruzar sin la linterna.
 
 respuesta:
 
