@@ -1,11 +1,5 @@
-El problema de los cuatro colores: Dado un mapa dividido en regiones, ¿es posible colorear cada región con uno de cuatro colores diferentes de tal manera que regiones adyacentes nunca tengan el mismo color?
+Usted tiene 10 pilas de monedas, cada una con 10 monedas de 1 peso. Toda una pila es de monedas falsas, pero usted no sabe cuál. Conoce el peso de una moneda genuina  y también le han dicho que cada moneda falsa pesa un gramo más de lo debido. Usted puede pesar las monedas en una balanza. ¿Cuál es el número menor de pesadas necesarias para determinar cuál es la pila falsa?
 
-La estrategia para lograr esto es la siguiente:
 
-1. Asignar un color inicial a una región cualquiera del mapa.
-2. Recorrer las regiones restantes y asignar a cada una el color más bajo que no haya sido utilizado por ninguna de las regiones adyacentes.
-3. Repetir el paso anterior hasta que todas las regiones estén coloreadas.
-
-La clave para la solución es que siempre habrá un número suficiente de colores (en este caso, cuatro) disponibles para colorear las regiones de manera que no haya conflictos entre las regiones adyacentes.
-
-Es importante destacar que esta solución se basa en el teorema de los cuatro colores, que establece que cualquier mapa plano dividido en regiones puede ser coloreado con solo cuatro colores de manera que regiones adyacentes siempre tengan colores diferentes.
+respuesta: 
+Se puede identificar la pila falsa con una sola pesada de las monedas. Tome una moneda de la primera pila, dos de la segunda, tres de la tercera, etc, hasta las 10 monedas de la decima pila. Luego pese toda la colección de muestras en la balanza. El exceso de peso que haya en la colección, en número de gramos, corresponde al número de la pila falsa. Por ejemplo, si el grupo de monedas pesa siete gramos más de lo debido, entonces la pila falsa debe ser la séptima, de la que usted tomo siete monedas (cada una pesa un gramo más que la moneda genuina).
