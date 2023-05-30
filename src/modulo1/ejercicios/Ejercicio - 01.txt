@@ -1,5 +1,9 @@
 
 
-Un sastre tiene una pieza de paño de 12 metros de longitud, y todos los días corta 2 metros. ¿Al cabo de cuántos días habrá cortado completamente la pieza?
- 
-5 dias
+Un reloj atrasa 1/4 de minuto durante el día, pero, debido al cambio de temperatura, adelanta 1/3 de minuto durante la noche. ¿ Al cabo de cuántos días habrá adelantado 2 minutos, sabiendo que hoy, al atardecer, marca la hora exacta?.
+
+24 días 
+
+Atrasa 1/4,  adelanta 1/3, luego adelanta 1/12 minutos por día.
+
+En 12 días adelantará 1 minuto, en 24 días 2 minutos,  
