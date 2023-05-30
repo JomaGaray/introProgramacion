@@ -1,10 +1,22 @@
 El problema del ajedrez: ¿Cuántos cuadros hay en un tablero de ajedrez de 8x8? ¿Y si el tablero tuviera un tamaño diferente?
-Claro, puedo darte la solución al problema del ajedrez:
 
-En un tablero de ajedrez de 8x8, hay un total de 64 cuadros. Esto se puede calcular multiplicando el número de filas (8) por el número de columnas (8).
 
-Si el tablero tuviera un tamaño diferente, la forma de calcular el número de cuadros sería la misma. Simplemente multiplicas el número de filas por el número de columnas del tablero para obtener el total de cuadros.
+En un tablero de ajedrez de 8x8, podemos contar los cuadros de la siguiente manera:
 
-Por ejemplo, si el tablero fuera de 6x6, tendrías 36 cuadros (6 filas x 6 columnas). Si fuera de 10x10, tendrías 100 cuadros (10 filas x 10 columnas), y así sucesivamente.
+1. Tenemos 64 cuadros individuales de 1x1 que componen el tablero.
 
-Recuerden que el número total de cuadros en un tablero de ajedrez se obtiene multiplicando el número de filas por el número de columnas del tablero.
+2. Además de los cuadros individuales, también tenemos cuadrados más grandes formados por combinaciones de cuadros individuales. Podemos contar estos cuadrados de la siguiente manera:
+
+   - Hay 49 cuadrados de 2x2 en el tablero.
+   - Hay 36 cuadrados de 3x3 en el tablero.
+   - Hay 25 cuadrados de 4x4 en el tablero.
+   - Hay 16 cuadrados de 5x5 en el tablero.
+   - Hay 9 cuadrados de 6x6 en el tablero.
+   - Hay 4 cuadrados de 7x7 en el tablero.
+   - Hay 1 cuadrado de 8x8 en el tablero.
+
+Sumando todos estos cuadros individuales y cuadrados más grandes, obtenemos el número total de cuadros en un tablero de ajedrez de 8x8:
+
+64 cuadros individuales + 49 cuadrados de 2x2 + 36 cuadrados de 3x3 + 25 cuadrados de 4x4 + 16 cuadrados de 5x5 + 9 cuadrados de 6x6 + 4 cuadrados de 7x7 + 1 cuadrado de 8x8 = 204 cuadros en total.
+
+Si el tablero tuviera un tamaño diferente, el enfoque sería similar. Puedes contar los cuadros individuales y luego los cuadrados formados por combinaciones de cuadros individuales en función del tamaño del tablero. Siguiendo este método, puedes determinar el número total de cuadros en cualquier tablero de ajedrez.
