@@ -1,12 +1,11 @@
 
-El problema del puente: Cuatro personas deben cruzar un puente de noche. Solo hay una linterna, y cada persona tarda diferentes tiempos en cruzar el puente. Solo dos personas pueden cruzar juntas, y deben llevar la linterna para poder avanzar. El objetivo es encontrar la manera más rápida para que todas las personas crucen el puente, ninguna de las personas puede cruzar sin la linterna.
+Teniendo un conjunto de dos números (2,2) se obtiene el mismo resultado sumándolos que multiplicándolos. Aclaremos que este resultado es 4.
+
+Se busca entonces un conjunto de tres números donde pase los mismo. No sirve, por ejemplo, el conjunto (4,2,2) porque su producto es 16 y su suma es 8. (Naturalmente, los conjuntos deberán estar formados por números enteros y positivos). Y luego se busca un conjunto de 4 números donde pase lo mismo. Los conjuntos pueden tener números repetidos.
+
+Qué conjuntos se encuentran en ambos casos?
+
 
 respuesta:
 
-1. Las personas A y B cruzan juntas llevando la linterna.
-2. A llega al otro lado y deja la linterna allí.
-3. B regresa al lado inicial con la linterna.
-4. Las personas C y D cruzan juntas llevando la linterna.
-5. B les entrega la linterna a C y D en el medio del puente.
-6. B cruza solo al otro lado.
-7. C y D llegan juntos al otro lado.
+
