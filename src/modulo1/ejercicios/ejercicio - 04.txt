@@ -1,20 +1,7 @@
-El problema de los sombreros: Diez personas están paradas en línea, cada una con un sombrero rojo o azul. Cada persona puede ver los sombreros de las personas que están delante de ellas, pero no los suyos ni los de las personas que están detrás. Sin comunicarse entre sí, deben adivinar el color de su propio sombrero. ¿Cómo pueden hacerlo?
+En un torneo de tenis se inscriben 128 participantes. Como es bien sabido se juega por simple eliminación. Es decir, el jugador que pierde un partido queda eliminado. La pregunta es: ¿Cuántos partidos se jugaron en total hasta definir al campeón?
 
+respuesta:
 
-1. Antes de comenzar, las personas deben acordar una regla simple: asignarán el valor binario 0 al color rojo y el valor binario 1 al color azul.
+Solución 1: como hay 128 participantes, para que uno quede eliminado tiene que perder solo un partido. Luego, si hay 128 participantes, y un campeón(el único que no perdió ninguno de los partidos que jugó), significa que los restantes 127 tienen que haber perdido exactamente un partido, y por lo tanto, tuvieron que jugarse 127 partidos para que todos quedaran eliminados y quedara solo uno que fue el único que los gano todos.
 
-2. La persona al final de la línea (persona número 10) debe observar el color de los sombreros de las 9 personas que están delante de ella y contar la cantidad de sombreros azules.
-
-3. Basándose en la cantidad de sombreros azules que ve, la persona al final de la línea puede calcular la paridad total de los sombreros azules, es decir, si la cantidad de sombreros azules es par o impar.
-
-4. A continuación, cada persona en la línea, comenzando desde la persona número 9 y avanzando hacia la persona número 1, debe observar el color de los sombreros de las personas que están delante de ellas y contar la cantidad de sombreros azules.
-
-5. Cada persona debe sumar la cantidad de sombreros azules que ve a la paridad total de sombreros azules que fue calculada por la persona al final de la línea.
-
-6. A partir de esta suma, cada persona puede determinar la paridad total de los sombreros azules a lo largo de toda la línea, incluyendo su propio sombrero.
-
-7. Cada persona puede comparar la paridad total de los sombreros azules con el color de su propio sombrero para adivinar el color correcto. Si la paridad total y el color de su sombrero coinciden, entonces su sombrero es azul. Si difieren, entonces su sombrero es rojo.
-
-Con esta estrategia, al menos una persona podrá adivinar correctamente el color de su sombrero. Cabe destacar que las personas detrás de esa persona no podrán adivinar el color de sus sombreros, ya que solo pueden ver los sombreros de las personas que están delante de ellas.
-
-
+Solución 2: dividir el número de participantes por dos, con lo que queda: 64 partidos en la primera ronda, 32 después, 16 luego, 8 en los octavos de final, 4 en los cuartos, dos en las semifinales y uno en la final. La suma es 64+32+16+8+4+2+1=127
