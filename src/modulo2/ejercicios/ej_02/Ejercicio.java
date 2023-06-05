@@ -4,7 +4,7 @@ package modulo2.ejercicios.ej_02;
  * Escribir un programa que muestre tu nombre por pantalla.
  */
 
-public class Ejercicio {
+public class ej_02 {
 
     public static void main(String[] args) {
 
