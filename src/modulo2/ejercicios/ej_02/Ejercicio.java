@@ -1,8 +1,18 @@
 package modulo2.ejercicios.ej_02;
 
 /**
- * Modificar el programa anterior para que además muestre tu dirección y tu número de teléfono.
- * Asegurarse de que los datos se muestran en líneas separadas.
+ * Escribir un programa que muestre tu nombre por pantalla.
  */
+
 public class Ejercicio {
+
+    public static void main(String[] args) {
+
+        //
+        System.out.println("Nombre, apellido");
+        System.out.println("DIRECCION");
+        System.out.println("123456789");
+
+
+    }
 }
