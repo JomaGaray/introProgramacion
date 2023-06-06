@@ -10,5 +10,16 @@ public class Ejercicio {
 
         //
         System.out.println("Daniel E, AGUIL MALLEA");
+        
+        /* ejercicio 1 */
+            System.out.println("mi nombre es  Jose Garay ");
+            //forma mas sofisticada ..
+            Scanner sc= new Scanner(System.in);
+            System.out.print("Escribi tu nombre: ");
+            String miNombre= sc.nextLine();   
+            System.out.print("mi nombre es: "+ miNombre);
+        
+        
+        
     }
 }
