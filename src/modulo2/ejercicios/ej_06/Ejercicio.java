@@ -1,3 +1,5 @@
+package modulo2.ejercicios.ej_06;
+
 public class Ejercicio{
 
   public static void main(String[] args) {

@@ -1,3 +1,7 @@
+package modulo2.ejercicios.ej_04;
+
+import java.util.Scanner;
+
 public class Ejercicio{
 
   /* ejercicio 4 y 5 */
