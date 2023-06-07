@@ -1,34 +1,26 @@
 package modulo5;
 
-import modulo8.*;
-
-import java.util.Scanner;
-
 
 public class Matriz_ej1 {
 
     public static void main(String[] args) {
 
         //
-        final int N = 3;
+        final int MAX_FIL = 3;
+        final int MAX_COL = 4;
 
         //
-        int[][] numeros = new int[N][N];
+        int[][] numeros = new int[MAX_FIL][MAX_COL];
 
         //
-        Scanner scanner = new Scanner(System.in);
-
-        //
-        for (int fila = 0; fila < N; fila++) {
+        for (int fila = 0; fila < MAX_FIL; fila++) {
             //
-            for (int columna = 0; columna < N; columna++) {
+            for (int columna = 0; columna < MAX_COL; columna++) {
                 //
-                System.out.printf("ingrese el valor para la posición [%s,%s]: ",fila,columna);
-                numeros[fila][columna] = scanner.nextInt();
+                System.out.print(numeros[fila][columna]+" ");
             }
+            System.out.println();
         }
-
-
     }
 
 }

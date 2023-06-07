@@ -1,1 +1,17 @@
-//TODO poner el ejercicio
+
+Teniendo un conjunto de dos números (2,2) se obtiene el mismo resultado sumándolos que multiplicándolos. Aclaremos que este resultado es 4.
+
+Se busca entonces un conjunto de tres números donde pase los mismo. No sirve, por ejemplo, el conjunto (4,2,2)
+porque su producto es 16 y su suma es 8. (Naturalmente, los conjuntos deberán estar formados por números enteros y positivos).
+Y luego se busca un conjunto de 4 números donde pase lo mismo. Los conjuntos pueden tener números repetidos.
+
+Qué conjuntos se encuentran en ambos casos?
+
+
+respuesta:
+
+El conjunto (3,2,1) ofrece el mismo resultado si se suman o si se multiplican sus números. Es el único conjunto de tres números con
+esta característica.
+
+
+El conjunto (4,2,1,1) ofrece el mismo resultado si se multiplican o si se suman. También es único.

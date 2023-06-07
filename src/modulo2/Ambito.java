@@ -8,9 +8,7 @@ public class Ambito {
         //
         int suma;
 
+        //System.out.println(suma);
     }
-
-    //..
-    //..
 
 }

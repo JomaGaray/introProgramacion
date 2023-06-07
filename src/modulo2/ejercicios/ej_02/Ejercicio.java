@@ -5,4 +5,14 @@ package modulo2.ejercicios.ej_02;
  * Asegurarse de que los datos se muestran en líneas separadas.
  */
 public class Ejercicio {
+
+    public static void main(String[] args) {
+
+        System.out.println("mi nombr...");
+        System.out.println("mi celu..");
+        System.out.println("mi dire...");
+
+        System.out.println("mi nombre ...\nmi celu.... \nmi dire....");
+
+    }
 }

@@ -1,8 +1,10 @@
 package modulo5;
 
+import java.sql.SQLOutput;
+
 public class Matriz {
 
-    public static void main(String[] args) {
+    public static void main2(String[] args) {
 
         //
         int[][] matriz = new int[3][4];
@@ -23,4 +25,18 @@ public class Matriz {
         matriz[2][3] = -12;
     }
 
+    public static void main(String[] args) {
+
+        //
+        int[][] matriz =
+               {{1,2,3}, //1RA FILA CON 3 ELEMENTOS,
+                {4,5,6},
+                {7,8,9}};
+
+        for( int[] fila: matriz){
+            for( int elemento: fila){
+                System.out.println(elemento);
+            }
+        }
+    }
 }
