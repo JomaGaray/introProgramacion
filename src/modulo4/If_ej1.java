@@ -9,12 +9,13 @@ public class If_ej1 {
 
         //
         System.out.print("Ingrese la hora: ");
+
         //
-        Scanner scanner = new Scanner(System.in);
+        Scanner lector = new Scanner(System.in);
+
         //
-        String horaStr = scanner.nextLine();
-        //
-        int hora = Integer.parseInt(horaStr);
+        int hora = lector.nextInt();
+
         //
         if (hora >= 6 && hora <= 12 ) {
             System.out.println("buenos días");

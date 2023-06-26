@@ -13,9 +13,10 @@ public class While {
             System.out.println("El número es: "+numero);
 
             //
-            numero++;
+            numero = numero + 1; //numero++
         }
 
+        System.out.println("terminamos con el valor:" + numero);
     }
 
 }
