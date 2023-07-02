@@ -1,4 +1,6 @@
-public class EjerciciosTp3 {
+package modulo3.ejercicios;
+
+public class ejercicio6 {
     public static void main(String[] args) {
         /* ejercicio 6
         Scanner sc = new Scanner(System.in);

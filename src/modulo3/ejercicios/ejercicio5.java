@@ -1,4 +1,6 @@
-public class EjerciciosTp3 {
+package modulo3.ejercicios;
+
+public class ejercicio5 {
     public static void main(String[] args) {
         /* ejercicio 5
         final  int valorDolar = 460;

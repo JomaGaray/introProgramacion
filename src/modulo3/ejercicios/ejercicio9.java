@@ -1,4 +1,6 @@
-public class EjerciciosTp3 {
+package modulo3.ejercicios;
+
+public class ejercicio9 {
     public static void main(String[] args) {
         /* ejercicio 9
         final double gb =  0.001;
