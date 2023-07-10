@@ -21,6 +21,7 @@ public class Vector_ej4 {
 
         //leemos 20 elementos
         for( int pos=0; pos < N; pos++){
+            System.out.println("Ingrese el valor de la posiición " + (pos+1) );
             elementos[pos] = scanner.nextInt();
         }
 

@@ -17,7 +17,8 @@ public class Vector {
         int suma = elementos[0] + elementos[5];
 
         //
-        System.out.println("La suma del 1ro con el 6to elemento es:" + suma);
+        System.out.println("La suma del 1ro con el 6to elemento es:" + elementos[6/2]);
+
 
     }
 

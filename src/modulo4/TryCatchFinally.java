@@ -20,12 +20,13 @@ public class TryCatchFinally {
             //
             System.out.println("El número ingresado es: "+dia);
 
-        }catch(InputMismatchException ex) {
+        }catch(Exception ex) {
 
             //
             System.out.println("no se ingresó un número");
         }
 
+        System.out.println("Termine,....");
     }
 
 }
